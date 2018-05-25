@@ -90,6 +90,7 @@ const MyLoader = () => (
 Originally made by [@VipulSingh][2].
 
 Made possible by [@VikramThakur][3] by his valuable contributions.
+
 [1]: https://github.com/vipul-21/react-skeleton-loading
 [2]: https://github.com/vipul-21
 [3]: https://github.com/rhydvik
