@@ -1,0 +1,39 @@
+{
+  "name": "react-skeleton-loading",
+  "version": "0.1.0",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.3.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "webpack": "^4.8.3"
+  },
+  "main": "dist/bundle.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "jest"
+  },
+  "author": {
+    "name": "Vipul Singh",
+    "email": "vipul21sept@gmail.com"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^22.4.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.3",
+    "jest": "^22.4.3",
+    "style-loader": "^0.21.0",
+    "webpack-cli": "^2.1.3"
+  }
+}
