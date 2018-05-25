@@ -61,7 +61,7 @@ children: PropTypes.any
 | **widthRandomness**      | `{Number}`  | `1`              | Background opacity (0 = transparent, 1 = opaque)           |
 | **heightRandomness**    | `{Number}`  | `1`              | Animation opacity (0 = transparent, 1 = opaque)            |
 | **style**               | `{Object}`  | `null`           | Ex: `{ width: '100%', height: '70px' }`                                |
-| **children**           | `{String}`  | random unique id | Use the same value of prop key, that will solve inconsistency on the SSR. |
+| **children**           | `{node}`  | null | Todo. |
 
 
 **Or in custom mode
@@ -82,7 +82,7 @@ const MyLoader = () => (
 | Name                    | Type        | Default          | Description                                                |
 | ----------------------- | ----------- | ---------------- | ---------------------------------------------------------- |
 | **component**               | `{node}`  | `null`           | Custom react component                          |
-| **children**           | `{String}`  | random unique id | Use the same value of prop key, that will solve inconsistency on the SSR. |
+| **children**           | `{node}`  | null | Todo. |
 
 
 ## Credit
