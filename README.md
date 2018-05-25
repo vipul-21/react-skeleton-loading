@@ -34,18 +34,6 @@ import { Skeleton } from 'react-skeleton-loading'
 const MyLoader = () => <Skeleton />
 ```
 
-display: PropTypes.bool,
-width: PropTypes.number,
-height: PropTypes.number,
-backgroundColor: PropTypes.string,
-gradientColor: PropTypes.string,
-style: PropTypes.object,
-widthRandomness: PropTypes.number,
-heightRandomness: PropTypes.number,
-animate: PropTypes.bool,
-className: PropTypes.string,
-children: PropTypes.any
-
 ## Options
 
 | Name                    | Type        | Default          | Description                                                |
@@ -58,8 +46,8 @@ children: PropTypes.any
 | **height**              | `{Number}`  | `130`            | height of `div`                                 |
 | **backgroundColor**        | `{String}`  | `#f3f3f3`        | Background                                                 |
 | **gradientColor**      | `{String}`  | `#ecebeb`        | Animation color                                            |
-| **widthRandomness**      | `{Number}`  | `1`              | Background opacity (0 = transparent, 1 = opaque)           |
-| **heightRandomness**    | `{Number}`  | `1`              | Animation opacity (0 = transparent, 1 = opaque)            |
+| **widthRandomness**      | `{Number}`  | `1`              | Todo           |
+| **heightRandomness**    | `{Number}`  | `1`              | Todo            |
 | **style**               | `{Object}`  | `null`           | Ex: `{ width: '100%', height: '70px' }`                                |
 | **children**           | `{node}`  | null | Todo. |
 
