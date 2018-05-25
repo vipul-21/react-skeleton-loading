@@ -23,7 +23,7 @@ Hey, we're in development.
 
 ### Installation
 
-Npm: `$ npm i react-content-loader --save`
+Npm: `$ npm i react-skeleton-loading --save`
 
 **You can use it in two ways :**
 
