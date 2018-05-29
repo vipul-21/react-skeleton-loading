@@ -13,7 +13,7 @@
 <!-- Badges -->
 <p align="center">
 <a href="#">
-  <img alt="dependencies" src="https://img.shields.io/badge/dependencies-0-brightgreen.svg" />
+  <img alt="dependencies" src="https://david-dm.org/vipul-21/react-skeleton-loading.svg" />
 </a>
 
 </p>

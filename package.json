@@ -21,6 +21,7 @@
     "name": "Vipul Singh",
     "email": "vipul21sept@gmail.com"
   },
+
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-jest": "^22.4.3",
@@ -32,8 +33,16 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.3",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^22.4.3",
     "style-loader": "^0.21.0",
     "webpack-cli": "^2.1.3"
-  }
+  },
+  "jest":{
+     "moduleNameMapper":{
+          "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styleMock.js",
+          "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js"
+     }
+}
+
 }
