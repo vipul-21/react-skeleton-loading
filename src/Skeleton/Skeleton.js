@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import '../utils/style.css';
-
+// TODO: React Skeleton to have props with es6 Syntax
 class Skeleton extends Component {
   render() {
     // TODO: To apply all the custom styles to the component. 2 left - widthRandomness and heightRandomness
@@ -9,17 +9,17 @@ class Skeleton extends Component {
       width: this.props.width,
       height: this.props.height,
       backgroundColor: this.props.backgroundColor,
-      backgroundImage: `linear-gradient(90deg, ${this.props.backgroundColor}, ${this.props.gradientColor}, ${this.props.backgroundColor})`,
+      // backgroundImage: `linear-gradient(90deg, ${this.props.backgroundColor}, #f5f5f5, ${this.props.backgroundColor})`,
     };
     if(this.props.animate) {
-      style.animation = `slide ${this.props.speed}s ease-in-out infinite`;
+      // style.animation = `slide ${this.props.speed}s ease-in-out infinite`;
     }
     if(!this.props.display) {
       style.display = `none`;
     }
-    const className=`react-skeleton ${this.props.className}`;
+    // const className=`react-skeleton ${this.props.className}`;
     return (
-      <div style={[style,...this.props.style]} className={className}>
+      <div style={style} className="react-skeleton">
         {this.props.children}
       </div>
     );
