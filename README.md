@@ -1,7 +1,7 @@
 <!-- Logo -->
 <p align="center">
   <a href="#">
-    <img height="120" width="120" background="#fff" src="./docs/logoo.svg">
+    <img height="120" width="120" background="#fff" src="./docs/logo.svg">
   </a>
 </p>
 
@@ -40,7 +40,7 @@ const MyLoader = () => <Skeleton />
 | ----------------------- | ----------- | ---------------- | ---------------------------------------------------------- |
 | **animate**             | `{Boolean}` | `true`           | `false` to render with no animation                        |
 | **speed**               | `{Number}`  | `2`              | Animation speed in seconds                                 |
-| **display**               | `{Boolean}`  | `2`              | Display skeleton loading or not                                 |
+| **display**               | `{Boolean}`  | `true`              | Display skeleton loading or not                                 |
 | **className**           | `{String}`  | `''`             | Classname in the parent `div`                                  |
 | **width**               | `{Number}`  | `400`            | width of `div`                                |
 | **height**              | `{Number}`  | `130`            | height of `div`                                 |
@@ -54,12 +54,29 @@ const MyLoader = () => <Skeleton />
 
 **Or in custom mode
 
+You can only add the attribute `skeleton` to the `div` you want to have a skeleton loading.
+
 ```jsx
 import { CustomSkeleton } from 'react-skeleton-loading'
+
+const Example = () => (
+  <div>
+    <div skeleton>
+      ...
+    </div>
+    <div>
+      ...
+    </div>
+    <div skeleton>
+      ...
+    </div>
+  </div>  
+)
 
 const MyLoader = () => (
   <CustomSkeleton
     component={<Example />}
+
   />
 )
 ```
@@ -71,6 +88,7 @@ const MyLoader = () => (
 | ----------------------- | ----------- | ---------------- | ---------------------------------------------------------- |
 | **component**               | `{node}`  | `null`           | Custom react component                          |
 | **children**           | `{node}`  | null | Todo. |
+| **display**               | `{Boolean}`  | `true`              | Display skeleton loading or not                                 |
 
 
 ## Credit
